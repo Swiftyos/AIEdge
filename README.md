@@ -1,63 +1,68 @@
-# A statically generated blog example using Next.js, Markdown, and TypeScript
+# AIEdge - Auto-GPT Reading Group & AI Research Tracker
 
-This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
+![AIEdge Logo](https://example.com/aiedge-logo.png)
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using Markdown files as the data source.
+AIEdge is a website based on Next.js that serves as a platform for the Auto-GPT Reading Group, a community of AI enthusiasts who come together to discuss cutting-edge AI research and advancements. The website also functions as a repository of past reading group sessions, announces upcoming sessions, and tracks the latest developments in AI research.
 
-The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+## Purpose
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+The primary purposes of AIEdge are:
 
-## Demo
+1. **Auto-GPT Reading Group**: Facilitating regular reading group sessions where members discuss papers, research findings, and innovations related to AI, with a particular focus on the Auto-GPT topic.
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
+2. **Announcements**: Announcing upcoming reading group sessions, events, and important updates related to the reading group and AI research.
 
-## Deploy your own
+3. **AI Research Tracker**: Keeping track of the latest advancements in AI research, providing summaries, and linking to relevant papers and articles.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog-starter)
+## Status
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=blog-starter)
+AIEdge is currently a work-in-progress (WIP) project, and we welcome contributions from the community to help build it out and make it a valuable resource for the AI community.
 
-### Related examples
+## Contributing
 
-- [WordPress](/examples/cms-wordpress)
-- [DatoCMS](/examples/cms-datocms)
-- [Sanity](/examples/cms-sanity)
-- [TakeShape](/examples/cms-takeshape)
-- [Prismic](/examples/cms-prismic)
-- [Contentful](/examples/cms-contentful)
-- [Strapi](/examples/cms-strapi)
-- [Agility CMS](/examples/cms-agilitycms)
-- [Cosmic](/examples/cms-cosmic)
-- [ButterCMS](/examples/cms-buttercms)
-- [Storyblok](/examples/cms-storyblok)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent](/examples/cms-kontent)
-- [Umbraco Heartcore](/examples/cms-umbraco-heartcore)
-- [Builder.io](/examples/cms-builder-io)
-- [TinaCMS](/examples/cms-tina/)
-- [Enterspeed](/examples/cms-enterspeed)
+We believe that collaboration drives progress, and we invite you to contribute to AIEdge. Whether it's suggesting new features, reporting issues, fixing bugs, or improving the documentation, your contributions are highly appreciated.
 
-## How to use
+If you're interested in contributing, please follow these steps:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+1. Fork the repository to your GitHub account.
+2. Create a new branch from the `main` branch for your changes.
+3. Make your improvements, additions, or fixes.
+4. Commit your changes with clear and descriptive commit messages.
+5. Push the changes to your forked repository.
+6. Open a pull request (PR) to the `main` branch of the AIEdge repository.
 
-```bash
-npx create-next-app --example blog-starter blog-starter-app
+We will review your PR and work together to ensure your contributions are successfully merged into the project.
+
+## Getting Started
+
+To set up the development environment and run the website locally, follow these steps:
+
+1. Clone the AIEdge repository to your local machine:
+
+```
+git clone https://github.com/swiftyos/AIEdge.git
+
 ```
 
-```bash
-yarn create next-app --example blog-starter blog-starter-app
+
+2. Navigate to the project directory:
+
+```
+cd AIEdge
 ```
 
-```bash
-pnpm create next-app --example blog-starter blog-starter-app
+3. Install the project dependencies using Yarn:
+```
+yarn install
 ```
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+4. Start the development server:
+```
+yarn start
+```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Now, you can access the AIEdge website locally at http://localhost:3000/.
 
-# Notes
+## Feedback and Support
+Your feedback is invaluable to us, and we appreciate any suggestions or ideas to improve AIEdge. If you encounter any issues or need assistance, please don't hesitate to open an issue on this repository.
 
-`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
